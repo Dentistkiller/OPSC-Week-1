@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page3">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Learning Unit 1 -->
+            <TextView
+                android:id="@+id/learningUnit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning Unit 1"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/overview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview: This introductory learning unit focuses on the Android Operating System (OS) ecosystem, helping you understand why developing for the Android OS is so popular. It also introduces source control using GitHub. Please work through Themes 1 and 2 on Learn, together with the relevant sections of your prescribed source/s. To ensure that you are working towards mastering the objectives for this learning unit, please also ensure that you complete all the activities on Learn. One aspect that you may find challenging in this Learning Unit is getting Android Studio up and running. Read the official Android Studio documentation to assist with any issues you may encounter." />
+
+            <!-- Learning Unit 2 -->
+            <TextView
+                android:id="@+id/learningUnit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning Unit 2"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/overview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview: This learning unit introduces the Android Studio user interface as well as showing you how to create a new app. It further also introduces the Layout Editor, and how to apply various layouts to your app. It also explores using the TextView and ImageView controls. Finally, it concludes with internationalizing your app and running your app for the first time. Please work through Themes 1 to 4 on Learn, together with the relevant sections of your prescribed source/s. To ensure that you are working towards mastering the objectives for this learning unit, please also ensure that you complete all the activities on Learn. One aspect that you may find challenging in this learning unit is the use of the layout editor. Ensure that you refer to the Prescribed Material’s sections on the layout editor." />
+
+            <!-- Learning Unit 3 -->
+            <TextView
+                android:id="@+id/learningUnit3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning Unit 3"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/overview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview: This learning unit introduces the programming language used in this module: Kotlin. You will be introduced to the basic syntax of Kotlin and then move on to object-oriented programming in Kotlin. Please work through Themes 1 and 2 on Learn, together with the relevant sections of your prescribed source/s. To ensure that you are working towards mastering the objectives for this learning unit, please also ensure that you complete all the activities on Learn. One aspect that you may find challenging in this Learning Unit is getting used to Kotlin syntax. Complete the activities on Learn to get some hands-on practice with the language." />
+
+            <!-- Learning Unit 4 -->
+            <TextView
+                android:id="@+id/learningUnit4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning Unit 4"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/overview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview: This learning unit introduces several new features and techniques of Android Studio through the creation of an updated app. These features and techniques include: the LinearLayout, EditText, SeekerBar, EventHandling, NumberFormat and Intents. This learning unit will also discuss how to adjust custom theme colours, as well as apply the logic of the app by overriding methods in the Main Activity using anonymous inner classes. Please work through Themes 1 to 4 on Learn, together with the relevant sections of your prescribed source/s. To ensure that you are working towards mastering the objectives for this learning unit, please also ensure that you complete all the activities on Learn. One aspect that you may find challenging in this Learning Unit is where and how to add code to an Android App. Ensure that you refer to the Prescribed Material’s sections on adding logic to the app." />
+
+            <!-- Learning Unit 5 -->
+            <TextView
+                android:id="@+id/learningUnit5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning Unit 5"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/overview5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview: This learning unit works through the process of adding an online database connection to your app. The learning unit will be focusing on the use of the Firebase database. Please work through Themes 1 to 3 on Learn, together with the relevant sections of your prescribed source/s. To ensure that you are working towards mastering the objectives for this learning unit."/>
+
+            <Button
+                android:id="@+id/btnBackPgTwo"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:onClick="clickMeButton"
+                android:text="BACK"/>
+
+            <Button
+                android:id="@+id/btnForwardPgTwo"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:onClick="clickMeButton"
+                android:text="NEXT"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/vc1_foreground"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="INTRODUCTION"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Open Source Coding (Introduction). In this module, we will be focusing on
+developing native apps for the Android Operating System (OS). We will make use of the Kotlin
+programming language.
+In 2022, the Android OS has a market share of 70.97% of mobile devices (G, 2022). This means
+that the apps that we learn to develop here, will be able to run on most mobile devices out there
+right now.
+In your previous programming modules, you have already learned object-oriented programming
+in Java or C#. Although the syntax of Kotlin is slightly different, you will find the concepts quite
+familiar.
+Throughout this module, you will create several apps to master all the basic skills needed to build
+an Android app. It is important to get hands-on experience in any programming module, so it is
+essential that you complete all the activities provided on Learn.
+We hope you will enjoy the module and take the opportunity to use the knowledge and
+experience gained in both future modules, and in your career."
+        android:textAlignment="center"
+        android:textSize="17dp"
+        />
+
+
+        <Button
+            android:id="@+id/btnBackPgOne"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:onClick="backButtonOne"
+            android:text="BACK"/>
+
+        <Button
+            android:id="@+id/btnForwardPgOne"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:onClick="forwardButtonOne"
+            android:text="NEXT"/>
+
+
+</LinearLayout>
