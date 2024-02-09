@@ -42,19 +42,4 @@ experience gained in both future modules, and in your career."
         />
 
 
-        <Button
-            android:id="@+id/btnBackPgOne"
-            android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:onClick="backButtonOne"
-            android:text="BACK"/>
-
-        <Button
-            android:id="@+id/btnForwardPgOne"
-            android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:onClick="forwardButtonOne"
-            android:text="NEXT"/>
-
-
 </LinearLayout>

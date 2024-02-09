@@ -92,20 +92,6 @@
                 android:layout_height="wrap_content"
                 android:text="Overview: This learning unit works through the process of adding an online database connection to your app. The learning unit will be focusing on the use of the Firebase database. Please work through Themes 1 to 3 on Learn, together with the relevant sections of your prescribed source/s. To ensure that you are working towards mastering the objectives for this learning unit."/>
 
-            <Button
-                android:id="@+id/btnBackPgTwo"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:onClick="clickMeButton"
-                android:text="BACK"/>
-
-            <Button
-                android:id="@+id/btnForwardPgTwo"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:onClick="clickMeButton"
-                android:text="NEXT"/>
-
         </LinearLayout>
     </ScrollView>
 
